@@ -7,7 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 #url: "http://hitchhiker.ma" # the base hostname & protocol for your site
 
 author:
-  fullname: M Sudeep
+  fullname: msk
   github: sudeepdino008
    # disqus: your_disqus_forum_shortname
 
