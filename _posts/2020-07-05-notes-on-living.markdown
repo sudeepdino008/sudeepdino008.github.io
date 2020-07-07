@@ -13,7 +13,7 @@ and fantasy flights
 foggy grey  
 piercing light  
 snug red sky  
-speed thrill  
+the speed thrill  
 and drumming heart.  
 Set in your ways  
 well, break that set  
@@ -21,5 +21,5 @@ The road is long
 shrubs and winds  
 free yourself  
 my shackled son  
-walk the way  
-you walk the way  
+walk the way, you  
+must walk the way  
