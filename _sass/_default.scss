@@ -17,7 +17,7 @@ a {
 
 p {
     font-size: 20px;
-    line-height: 32px;
+    line-height: 29px;
 }
 
 img {
@@ -64,8 +64,8 @@ strong {
 
 /* =Header */
 .wrapper {
-    max-width: 800px;
-    margin: 100px auto;
+    max-width: 900px;
+    margin: 30px auto;
 }
 
 .header {
@@ -119,14 +119,14 @@ strong {
 
 /* =Titles */
 .page-title {
-    margin-top:100px;
-    margin-bottom:125px;
+    margin-top:20px;
+    margin-bottom:90px;
     text-align: center;
 }
 
 .page-title__text {
-    font-weight: 700;
-    font-size: 70px;
+    font-weight: 1000;
+    font-size: 40px;
 }
 
 .page-title__subtitle {
@@ -136,11 +136,11 @@ strong {
 }
 
 .post-title {
-    margin-bottom: 110px;
+    margin-bottom: 70px;
 }
 
 .post-title__text {
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .post-title__subtitle {
@@ -155,7 +155,7 @@ strong {
 }
 
 .post-teaser {
-    margin-bottom: 45px;
+    margin-bottom: 32px;
     font-weight: 700;
 }
 
