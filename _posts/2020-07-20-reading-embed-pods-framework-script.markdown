@@ -7,7 +7,7 @@ tags: iOS cocoapods engineering
 category: engineering
 ---
 
-Cocoapods is a resounding name in the world of iOS development. It's a dependency manager for Swift/Objc projects. On doing a `pod install` it does a couple of thinking including a new build phase called 'Embed Pods Framework' in your existing project.
+Cocoapods is a resounding name in the world of iOS development. It's a dependency manager for Swift/Objc projects. On doing a `pod install` it does a couple of things including a new build phase called 'Embed Pods Framework' in your existing project.
 
 This build phase essentially executes a script - **Pods-\<AppName\>-frameworks.sh**. I've been wondering what it does and started to read it. It turned out to be a light read, but I picked up a few things along the way. What follows is a little summary. There will be a few digressions about things discovered while reading the script.
 
@@ -48,7 +48,7 @@ command for everyday use.
 Given that a framework binary can easily reach near 100MBs and that there will be multiple such frameworks, the use of rsync totally makes sense.
 
 
-__Question__: I found that the framework binary at destination was **larger** than the binary at destination. That seems weird. The next step strips the unnecessary architecture in the destination binary, and that should cause the size to actually go down. This is answered later.
+__Question__: I found that the framework binary at destination was **larger** than the binary at source. That seems weird. The next step strips the unnecessary architecture in the destination binary, and that should actually cause the size to go down. This is answered later.
 
 <br>
 ## Strip unncessary architectures.
@@ -65,6 +65,6 @@ lipo -remove "$arch" -output "$binary" "$binary"
 
 Apple needs you to code sign anything you are installing on an actual iPhone. The cocoapods framework is no exception. This is not needed when running/building on a simulator, but only needed when installing on an iPhone.
 
-There is an interesting variable here - `COCOAPODS_PARALLEL_CODE_SIGN`. If this is enabled, the codesign commands for the various frameworks is executed parallely in background (using `&`). A useful thing to enable for saving few seconds.
+There is an interesting variable here - `COCOAPODS_PARALLEL_CODE_SIGN`. If this is enabled, the codesign commands for the various frameworks is executed parallely in background (using `&`). A useful thing to enable for shaving off a few seconds.
 
 Coming back to the earlier question of why destination binary saw a size increase--it was because of the code signing step, which embeds the digital signatures (and some other info) to the binary itself.

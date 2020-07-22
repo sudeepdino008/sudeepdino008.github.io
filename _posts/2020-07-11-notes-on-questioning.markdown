@@ -9,7 +9,7 @@ category: rationality
 
 __Disclaimer__: The following is not formatted/organized to be easy to read. In fact it's safe to assume that it's not formatted at all.
 
-Owing to a curious mix of mostly my own relucatance to question and the archaic educational system (with the former being predominant), I felt lost in asking questions and navigating unknown things. Ultimately circumstances force me to answer blatantly avoided questions, and my mental state in such scenarios is far from poised and peaceful. Somewhere along the line this has shifted, and now "asking questions" is one of the top skills I want to excel in.  
+Owing to a curious mix of mostly my own reluctance to question and the archaic educational system (with the former being predominant), I felt lost in asking questions and navigating unknown things. Ultimately circumstances force me to answer blatantly avoided questions, and my mental state in such scenarios is far from poised and peaceful. Somewhere along the line this has shifted, and now "asking questions" is one of the top skills I want to excel in.  
 Books are a prominent way for me gather information around a topic (in this case, questions). These are just my notes from **"A More Beautiful Question"** by *Warren Berger*. I use this as a checklist of questions/tips to go through from time to time, to sharpen the proverbial axe, and as raw material for self-reflection. 
 
 
@@ -24,7 +24,7 @@ Books are a prominent way for me gather information around a topic (in this case
 
 ## Oppositions to questions:
 * questioning often has a reverse relationship to expertise
-* We often think someone else will solve the problem
+* Diffusion of responsibility - "Someone else will solve it"
 * Education system hasn’t evolved, still relying on having the right answers, rather than the right questions. Society has become entrepreneurial, educational system has remained industrial.
 * when you have asked a good question, it feels like it’s your job to get the answers.
 * Questions are often seen as something that holds us back.
