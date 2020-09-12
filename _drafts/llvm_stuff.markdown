@@ -75,13 +75,16 @@ These then is very different from what is traditionally taught at schools (drago
 
 Kaleidoscope: added IR codegen. Going to add optimizer support and JIT compiler support.
 
+Passes: *Analysis* (collect information to be used by other passes) or *transform* (actually mnodify the IR) or *utility* (falls in neither category, example: spilling the bitcode on disk)
+
+
 Todos:
 unique_ptr  
 std::move
 [what every c programmer should know about undefined behavior][4] 
 [rvalue proposal][5]
 At some point add some features from [language reference][7] to kaleidoscope.
-
+[LLVM for Grad students: some useful ideas to explore llvm][12]
 
 [1]: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2006/n2027.html
 [2]: http://thbecker.net/articles/rvalue_references/section_01.html
@@ -93,3 +96,5 @@ At some point add some features from [language reference][7] to kaleidoscope.
 [8]: https://en.wikipedia.org/wiki/Basic_block
 [9]: https://en.wikipedia.org/wiki/Control-flow_graph
 [10]: https://channel9.msdn.com/Blogs/Seth-Juarez/Anders-Hejlsberg-on-Modern-Compiler-Construction
+[11]: https://llvm.org/docs/Passes.html
+[12]: https://www.cs.cornell.edu/~asampson/blog/llvm.html
